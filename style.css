@@ -1,0 +1,213 @@
+body {
+    background-image: url(./white\ pic1.jpg);
+}
+
+header, h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', sans-serif;
+    font-style: italic;
+    font-size: 60px;
+ 
+}
+
+ h1 {
+    color: rgb(99, 44, 158);
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 65%;
+    border-width: 5px;
+    padding-bottom: 2px;
+    max-width: 900px;
+    padding-block: 30px;
+    margin-left: 300px;
+}
+
+
+
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 60px;
+}
+ul {
+    list-style-type: none;
+  }
+  
+.circle {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  border-radius: 100%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  margin-right: 5px;
+  float: inline-start;
+  padding-left: 25px;
+  border: 2px solid black;
+
+}
+
+.palette-color {
+    display: grid;
+    
+    gap: 10px;
+}
+#circle1 {
+    background-color: rgb(170, 153, 255);
+
+
+}
+
+#circle2 {
+    background-color: rgb(170, 128, 255);
+    
+}
+
+#circle3 {
+    background-color: rgb(153, 102, 255);
+}
+
+#circle4 {
+    background-color: rgb(119, 51, 255);
+}
+
+#circle5 {
+    background-color: #8f00ff;
+}
+
+#circle6 {
+    background-color: rgb(89, 0, 179);
+}
+.font-panel {
+    
+    padding: 10px;
+    margin: 20px;
+    display:grid;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+#font1 {
+    font-family: 'Sofia';
+    font-size: 25px;
+    color:rgb(122, 72, 173);
+    border: 2px dashed rgb(119, 35, 119);
+    border-radius: 25px;
+    text-align: center;
+    
+}
+
+
+#font2 {
+    font-family: 'Pacifico';
+    font-size: 25px;
+    color: rgb(170, 35, 170);
+    font-weight: bold;
+    border: 2px dashed rgb(119, 35, 119);
+    border-radius: 25px;
+    text-align: center;
+}
+
+#font3 {
+    font-family: 'Honk';
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight: bold;
+    border: 2px dashed rgb(119, 35, 119);
+    border-radius: 25px;
+    text-align: center;
+}
+
+#font4 {
+    font-family: 'Single Day';
+    font-size: 20px;
+    color: rgb(92, 58, 107);
+    font-weight: bold;
+    border: 2px dashed rgb(119, 35, 119);
+    border-radius: 25px;
+    text-align: center;
+   
+}
+
+#font5 {
+    font-family: 'Permanent Marker';
+    font-size: 20px;
+    color:rgb(101, 12, 105);
+    border: 2px dashed rgb(119, 35, 119);
+    border-radius: 25px;
+    text-align: center;
+    
+}
+
+#font6 {
+    font-family: 'Henny Penny';
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(53, 28, 65);
+    border: 2px dashed rgb(119, 35, 119);
+    border-radius: 25px;
+    text-align: center;
+}
+
+#font7 {
+    font-family: 'Faster One';
+    font-size: 30px;
+    color:rgb(175, 141, 212);
+    border: 2px dashed rgb(119, 35, 119);
+    border-radius: 25px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#font8 {
+    font-family: 'New Rocker';
+    font-size: 20px;
+    color: rgb(133, 38, 174);
+    font-weight: bold;
+    border: 2px dashed rgb(119, 35, 119);
+    border-radius: 25px;
+    text-align: center;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 1000px;
+    height: 200px;
+    margin-bottom: 3%;
+    
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+tr, td, th {
+    border: 3px solid rgb(90, 25, 146);
+    text-align: center;
+    background: rgb(153, 149, 223);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(216,195,238,1) 30%, rgba(233,240,239,1) 33%, rgba(217,243,244,1) 35%, rgba(0,212,255,1) 100%);
+}
+th {
+    height: 35px;
+    font-family: 'Arial', serif;
+    font-weight: bold;
+    background-color: rgb(170, 158, 180);
+    font-size: 25px;
+}
+ 
+td {
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+footer {
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+}
